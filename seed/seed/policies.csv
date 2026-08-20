@@ -1,9 +1,9 @@
 policy_id,rule_name,trigger_condition,expected_response,severity,enabled,created_at
-P001,High Value Refund,Refund amount > 5000,ESCALATE,HIGH,True,2026-01-05 09:00:00
+P001,High Value Refund,Refund amount > 5000,BLOCK,HIGH,True,2026-01-05 09:00:00
 P002,Undelivered Order Refund,Order not delivered,BLOCK,HIGH,True,2026-01-05 09:00:00
 P003,Duplicate Refund,Order already refunded,BLOCK,HIGH,True,2026-01-05 09:00:00
 P004,Missing Order,Order cannot be found,BLOCK,HIGH,True,2026-01-05 09:00:00
 P005,Unauthorized Refund Agent,Agent not permitted to refund,BLOCK,HIGH,True,2026-01-05 09:00:00
-P006,High Value Payment,Payment amount > 10000,ESCALATE,HIGH,True,2026-01-05 09:00:00
+P006,High Value Payment,Payment amount > 10000,BLOCK,HIGH,True,2026-01-05 09:00:00
 P007,Cancelled Order Action,Order is cancelled,BLOCK,MEDIUM,True,2026-01-05 09:00:00
 P008,Missing Required Information,Required information unavailable,BLOCK,MEDIUM,True,2026-01-05 09:00:00
