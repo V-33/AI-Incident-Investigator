@@ -21,8 +21,10 @@ SELECT
 -- ============================================================
 
 
+-- ============================================================
 -- 2. ACTION OUTCOME BREAKDOWN
--- Shows SUCCESS / BLOCKED / FAILED / ESCALATED
+-- SUCCESS / BLOCKED / FAILED
+-- ============================================================
 
 SELECT
     STATUS,
@@ -33,9 +35,7 @@ SELECT
     ) AS PERCENTAGE
 FROM ACTIONS
 GROUP BY STATUS
-ORDER BY ACTION_COUNT DESC
-;
-
+ORDER BY ACTION_COUNT DESC;
 
 -- ============================================================
 
