@@ -1,0 +1,11 @@
+agent_id,agent_name,agent_function,status,created_at
+A001,RefundBot,Refund processing,ACTIVE,2026-01-05 09:00:00
+A002,OrderBot,Order management,ACTIVE,2026-01-05 09:00:00
+A003,DeliveryBot,Delivery/logistics,ACTIVE,2026-01-05 09:00:00
+A004,PaymentBot,Payment processing,ACTIVE,2026-01-05 09:00:00
+A005,SupportBot,Customer support,ACTIVE,2026-01-05 09:00:00
+A006,ReturnBot,Returns,ACTIVE,2026-01-05 09:00:00
+A007,AccountBot,Account management,ACTIVE,2026-01-05 09:00:00
+A008,DiscountBot,Sales/discounts,ACTIVE,2026-01-05 09:00:00
+A009,ClaimsBot,Claims handling,ACTIVE,2026-01-05 09:00:00
+A010,NotificationBot,Customer notifications,ACTIVE,2026-01-05 09:00:00
